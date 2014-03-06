@@ -163,6 +163,12 @@ __BEGIN_DECLS
 #define AUDIO_PARAMETER_KEY_VOIP_CHECK "voip_flag"
 
 /* Query Fluence type */
+#define AUDIO_PARAMETER_KEY_FLUENCE "fluence"
+#define AUDIO_PARAMETER_VALUE_QUADMIC "quadmic"
+#define AUDIO_PARAMETER_VALUE_DUALMIC "dualmic"
+#define AUDIO_PARAMETER_KEY_NO_FLUENCE "none"
+
+/* Non-CAF flag */
 #define AUDIO_PARAMETER_KEY_FLUENCE_TYPE "fluence"
 
 /* Query if surround sound recording is supported */
